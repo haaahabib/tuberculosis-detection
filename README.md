@@ -4,13 +4,13 @@ Ini adalah repositori kode untuk proyek penelitian yang berfokus pada deteksi Tu
 
 ## Daftar Isi
 
-1.  [Tentang Proyek](#tentang-proyek)
-2.  [Fitur Utama](#fitur-utama)
-3.  [Hasil Penelitian](#hasil-penelitian)
-4.  [Struktur Repositori](#struktur-repositori)
-5.  [Dataset](#dataset)
-6.  [Cara Menggunakan](#cara-menggunakan)
-7.  [Lisensi](#lisensi)
+1.  [Tentang Proyek](#1-tentang-proyek)
+2.  [Fitur Utama](#2-fitur-utama)
+3.  [Hasil Penelitian](#3-hasil-penelitian)
+4.  [Struktur Repositori](#4-struktur-repositori)
+5.  [Dataset](#5-dataset)
+6.  [Cara Menggunakan](#6-cara-menggunakan)
+7.  [Lisensi](#7-lisensi)
 
 ---
 
@@ -56,9 +56,5 @@ Berdasarkan implementasi dan evaluasi menggunakan *K-Fold Cross Validation* (5-f
 2.  **Menjalankan di Lingkungan Lokal (Opsional):**
     * Kloning repositori ini
     * Jalankan *script* `tuberculosis_detection.py`.
-
-## 7. Lisensi
-
-Proyek ini dilisensikan di bawah [Misalnya: MIT License / GNU General Public License v3.0 / dll.]. Lihat *file* `LICENSE` untuk detail lebih lanjut. *(Jika Anda tidak memiliki *file* `LICENSE`, Anda bisa menghapus bagian ini atau membuatnya)*
-
+    
 ---
