@@ -10,7 +10,6 @@ Ini adalah repositori kode untuk proyek penelitian yang berfokus pada deteksi Tu
 4.  [Struktur Repositori](#4-struktur-repositori)
 5.  [Dataset](#5-dataset)
 6.  [Cara Menggunakan](#6-cara-menggunakan)
-7.  [Lisensi](#7-lisensi)
 
 ---
 
