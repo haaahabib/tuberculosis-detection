@@ -8,8 +8,8 @@ Ini adalah repositori kode untuk proyek penelitian yang berfokus pada deteksi Tu
 2.  [Fitur Utama](#fitur-utama)
 3.  [Hasil Penelitian](#hasil-penelitian)
 4.  [Struktur Repositori](#struktur-repositori)
-5.  [Cara Menggunakan](#cara-menggunakan)
-6.  [Dataset](#dataset)
+5.  [Dataset](#dataset)
+6.  [Cara Menggunakan](#cara-menggunakan)
 7.  [Lisensi](#lisensi)
 
 ---
@@ -39,7 +39,16 @@ Berdasarkan implementasi dan evaluasi menggunakan *K-Fold Cross Validation* (5-f
 * `tuberculosis_detection.py`: Versi *script* Python dari *code* yang sama, cocok untuk dijalankan di lingkungan lokal atau server.
 * `README.md`: *File* ini sendiri, yang memberikan gambaran umum tentang proyek.
 
-## 5. Cara Menggunakan
+## 6. Dataset
+
+*Dataset* yang digunakan dalam penelitian ini adalah **"Tuberculosis (TB) Chest X-ray Dataset"** yang tersedia secara publik di Kaggle.
+* **Jumlah Citra:** Terdiri dari total 7.000 citra *X-ray*, dibagi menjadi:
+    * 3.500 citra *X-ray* Normal
+    * 3.500 citra *X-ray* Tuberkulosis
+* **Sumber:** [Kaggle: Tuberculosis (TB) Chest X-ray Dataset](https://www.kaggle.com/datasets/scipygaurav/tuberculosis-tb-chest-x-ray-cleaned-database)
+
+  
+## 6. Cara Menggunakan
 
 1.  **Akses *Notebook* Google Colab:**
     * Buka `tuberculosis_detection.ipynb` langsung di Google Colab.
@@ -48,13 +57,5 @@ Berdasarkan implementasi dan evaluasi menggunakan *K-Fold Cross Validation* (5-f
 2.  **Menjalankan di Lingkungan Lokal (Opsional):**
     * Kloning repositori ini
     * Jalankan *script* `tuberculosis_detection.py`.
-
-## 6. Dataset
-
-*Dataset* yang digunakan dalam penelitian ini adalah **"Tuberculosis (TB) Chest X-ray Dataset"** yang tersedia secara publik di Kaggle.
-* **Jumlah Citra:** Terdiri dari total 7.000 citra *X-ray*, dibagi menjadi:
-    * 3.500 citra *X-ray* Normal
-    * 3.500 citra *X-ray* Tuberkulosis
-* **Sumber:** [Kaggle: Tuberculosis (TB) Chest X-ray Dataset](https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset)
 
 ---
