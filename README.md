@@ -39,7 +39,7 @@ Berdasarkan implementasi dan evaluasi menggunakan *K-Fold Cross Validation* (5-f
 * `tuberculosis_detection.py`: Versi *script* Python dari *code* yang sama, cocok untuk dijalankan di lingkungan lokal atau server.
 * `README.md`: *File* ini sendiri, yang memberikan gambaran umum tentang proyek.
 
-## 6. Dataset
+## 5. Dataset
 
 *Dataset* yang digunakan dalam penelitian ini adalah **"Tuberculosis (TB) Chest X-ray Dataset"** yang tersedia secara publik di Kaggle.
 * **Jumlah Citra:** Terdiri dari total 7.000 citra *X-ray*, dibagi menjadi:
@@ -47,7 +47,6 @@ Berdasarkan implementasi dan evaluasi menggunakan *K-Fold Cross Validation* (5-f
     * 3.500 citra *X-ray* Tuberkulosis
 * **Sumber:** [Kaggle: Tuberculosis (TB) Chest X-ray Dataset](https://www.kaggle.com/datasets/scipygaurav/tuberculosis-tb-chest-x-ray-cleaned-database)
 
-  
 ## 6. Cara Menggunakan
 
 1.  **Akses *Notebook* Google Colab:**
@@ -57,5 +56,9 @@ Berdasarkan implementasi dan evaluasi menggunakan *K-Fold Cross Validation* (5-f
 2.  **Menjalankan di Lingkungan Lokal (Opsional):**
     * Kloning repositori ini
     * Jalankan *script* `tuberculosis_detection.py`.
+
+## 7. Lisensi
+
+Proyek ini dilisensikan di bawah [Misalnya: MIT License / GNU General Public License v3.0 / dll.]. Lihat *file* `LICENSE` untuk detail lebih lanjut. *(Jika Anda tidak memiliki *file* `LICENSE`, Anda bisa menghapus bagian ini atau membuatnya)*
 
 ---
