@@ -9,7 +9,8 @@ Ini adalah repositori kode untuk proyek penelitian yang berfokus pada deteksi Tu
 3.  [Hasil Penelitian](#hasil-penelitian)
 4.  [Struktur Repositori](#struktur-repositori)
 5.  [Cara Menggunakan](#cara-menggunakan)
-6.  [Lisensi](#lisensi)
+6.  [Dataset](#dataset)
+7.  [Lisensi](#lisensi)
 
 ---
 
@@ -26,7 +27,7 @@ Proyek ini mengimplementasikan model Convolutional Neural Network (CNN) *ResNet1
 
 ## 3. Hasil Penelitian
 
-Berdasarkan implementasi dan evaluasi menggunakan K-Fold Cross Validation* (5-fold), model ResNet18 yang dikembangkan menunjukkan performa yang sangat baik:
+Berdasarkan implementasi dan evaluasi menggunakan *K-Fold Cross Validation* (5-fold), model ResNet18 yang dikembangkan menunjukkan performa yang sangat baik:
 
 * **Akurasi Keseluruhan:** **99.57%** (0.9957)
 * **Pengurangan Bias Kelas**: Penggunaan dataset yang seimbang secara efektif mengurangi bias terhadap kelas mayoritas, menghasilkan model yang lebih *robust*.
@@ -47,5 +48,13 @@ Berdasarkan implementasi dan evaluasi menggunakan K-Fold Cross Validation* (5-fo
 2.  **Menjalankan di Lingkungan Lokal (Opsional):**
     * Kloning repositori ini
     * Jalankan *script* `tuberculosis_detection.py`.
+
+## 6. Dataset
+
+*Dataset* yang digunakan dalam penelitian ini adalah **"Tuberculosis (TB) Chest X-ray Dataset"** yang tersedia secara publik di Kaggle.
+* **Jumlah Citra:** Terdiri dari total 7.000 citra *X-ray*, dibagi menjadi:
+    * 3.500 citra *X-ray* Normal
+    * 3.500 citra *X-ray* Tuberkulosis
+* **Sumber:** [Kaggle: Tuberculosis (TB) Chest X-ray Dataset](https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset)
 
 ---
