@@ -1,4 +1,4 @@
-# Deteksi Tuberkulosis Menggunakan ResNet-18 dan Grad-CAM
+# Deteksi Tuberkulosis Menggunakan ResNet-18 (K-Fold Cross Validation) dan Grad-CAM
 
 Proyek ini bertujuan untuk mengembangkan sistem deteksi tuberkulosis (TBC) yang sangat akurat dari citra Rontgen (X-ray) paru-paru menggunakan arsitektur *deep learning* **ResNet-18**. Untuk meningkatkan kepercayaan dan interpretasi model, proyek ini juga mengimplementasikan **Grad-CAM** untuk visualisasi area fokus pada gambar.
 
@@ -57,7 +57,7 @@ Berdasarkan implementasi dan evaluasi yang ketat, model ResNet-18 yang dikembang
 
 ---
 
-## Tumpukan Teknologi
+## Tech Stack
 
 -   **Bahasa Pemrograman**: Python
 -   **Framework Deep Learning**: PyTorch / TensorFlow, Keras
